@@ -1,0 +1,109 @@
+nav{
+
+	background-color: #F8CE18;
+	color: white;
+}
+
+.nav-bar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: black;
+}
+
+.links ul li{
+	display: inline;
+}
+
+.links ul li a{
+	color: black;
+	text-decoration: none;
+	padding: 0 15px 0 15px;
+}
+.links{
+	margin-top: 15px;
+}
+
+.links i{
+	padding-right: 5px;
+}
+
+.logo{
+	background-image: url('../img/choli.png');
+	background-size: contain;
+	height: 40px;
+	width: 100px;
+	background-repeat: no-repeat;
+}
+
+.home{
+	background-image: url('../img/bg-home.png');
+	background-size: cover;
+	height: 100vh;
+	background-repeat: no-repeat;
+}
+
+.home h1{
+	font-size: 60px;
+    padding-top: 300px;
+}
+
+.home h4{
+	color: #80CBCE;
+}
+
+.home h4 span{
+	color: black;
+}
+
+.home button {
+	background-color: #80CBCE;
+	border-color: #80CBCE;
+}
+
+.about {
+	height: 640px;
+	padding-top: 40px;
+	padding-left: 150px;
+	background-color: #128ECC;
+}
+
+.blue {
+	width: 113px;
+    height: 5px;
+    background-color: #80CBCE;
+}
+
+.description ul li {
+	font-size: 20px;
+	font-style: italic;
+	padding: 10px 0 20px 0;
+}
+
+.resume{
+	height: 1072px;
+	background-color: #128ECC;
+}
+
+.picture{
+	background-image: url('../img/2X2.png');
+	background-size: 150px;
+	height: 30vh;
+	background-repeat: no-repeat;
+	background-position-x: center;
+}
+
+.description ul li{
+	padding: 0 0 0 0;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.services{
+	height: 1072px;
+	background-color: #128ECC;
+}
+
+.services ul li{
+	font-size: 30px;
+}
